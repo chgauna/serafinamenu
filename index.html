@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/95d0721837.js" crossorigin="anonymous"></script>
     <!-- link a css -->
     <link rel="stylesheet" href="css/styles.css">
     <title>Serafina</title>
@@ -16,21 +18,21 @@
     <header>
         <nav>
             <div class="boxLogo">
-                <img src="img/logo-serafina.svg" alt="" class="logo">
+                <a href="#"><img src="img/logo-serafina.svg" alt="" class="logo"></a>
             </div>
             <input type="checkbox" id="check">
             <label for="check" class="barBoton">
                 <i class="fas fa-bars"></i>
             </label>
             <ul class="navMenu">
-                <li><a href="#" class="active">MENÚ
+                <li><a href="#" class="active">MENÚ<i class="fas fa-chevron-down"></i>
                     <ul class="subMenu">
-                        <li><a href="#">PASTA</a></li>
-                        <li><a href="#">LASAGNA</a></li>
-                        <li><a href="#">LICORES</a></li>
-                        <li><a href="#">PIZZAS</a></li>
-                        <li><a href="#">FUERTES</a></li>
-                        <li><a href="#">BURGERS</a></li>
+                        <li><a href="#">PASTA<i class="arrowLeft fas fa-angle-left"></i></a></li>
+                        <li><a href="#">LASAGNA<i class="arrowLeft fas fa-angle-left"></i></a></li>
+                        <li><a href="#">LICORES<i class="arrowLeft fas fa-angle-left"></i></a></li>
+                        <li><a href="#">PIZZAS<i class="arrowLeft fas fa-angle-left"></i></a></li>
+                        <li><a href="#">FUERTES<i class="arrowLeft fas fa-angle-left"></i></a></li>
+                        <li><a href="#">BURGERS<i class="arrowLeft fas fa-angle-left"></i></a></li>
                     </ul>
                 </a></li>
                 <li><a href="#">RESERVAR</a></li>
@@ -42,7 +44,24 @@
             <div><a href="#" class="buttonHeader">HACER RESERVA</a></div>
         </div>
     </header>
-    <!-- fontawesome -->
-    <script src="https://kit.fontawesome.com/95d0721837.js" crossorigin="anonymous"></script>
+    <footer>
+        <div class="contenedorFooter">
+            <div>
+                <img src="/img/logo-serafina.svg" alt="logo serafina" class="logoFooter">
+            </div>
+            <section class="socialMedia">
+                <div>
+                    <a href=""><i class="iconWhatsapp fab fa-whatsapp"></i></a>
+                </div>
+                <div>
+                    <a href=""><i class="iconFacebook fab fa-facebook-square"></i></a>
+                </div>
+                <div>
+                    <a href=""><i class="iconInstagram fab fa-instagram"></i></a>
+                </div>
+            </section>
+        </div>
+        <p class="textFooter">@2021 Serafina</p>
+    </footer>
 </body>
 </html>
