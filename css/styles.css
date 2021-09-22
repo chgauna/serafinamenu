@@ -53,7 +53,7 @@ nav {
 .navMenu li {
   display: none;
   line-height: 15px;
-  margin: 30px 0;
+  margin: 18px 0;
   margin-right: 30px;
   transition: all 0.5s;
 }
@@ -61,7 +61,7 @@ nav {
 .navMenu li a {
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
-  font-size: 22px;
+  font-size: 14px;
 }
 
 .navMenu li a.active,
@@ -76,7 +76,7 @@ nav {
 }
 
 .subMenu li a {
-  font-size: 16px;
+  font-size: 12px;
 }
 .arrowLeft {
   color: #ebbe44;
@@ -87,7 +87,7 @@ nav {
 }
 
 #check:checked ~ .navMenu {
-  height: 100vh;
+  height: 53vh;
 }
 
 #check:checked ~ .navMenu li {
@@ -141,6 +141,22 @@ nav {
   .buttonHeader {
     padding: 10px 35px;
     font-size: 16px;
+  }
+
+  #check:checked ~ .navMenu {
+    height: 100vh;
+  }
+
+  .navMenu li a {
+    font-size: 22px;
+  }
+
+  .subMenu li a {
+    font-size: 16px;
+  }
+
+  .navMenu li {
+    margin: 30px;
   }
 }
 
